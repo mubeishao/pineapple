@@ -1,0 +1,4 @@
+$base_rem: 1rem;
+@function remCalc($count) {
+  @return $count/100 / 75 * 64 * $base_rem;
+}
